@@ -48,11 +48,13 @@ ifeq ($(TOOL),rubber)
 else ifeq ($(TOOL),latexmk)
 	@latexmk -C
 endif
-	@for ext in acn acr alg fls xdv fdb_latexmk toc; do \
+	@for ext in acn acr alg fls xdv fdb_latexmk toc glg glo gls slg slo sls ist run.xml; do \
 		if compgen -G "*.$$ext" > /dev/null; then \
 			rm -f *.$$ext; \
 		fi; \
 	done
+	@rm -rf _minted-*
+	@rm -f *.pyg *.bak
 	@echo "Clean complete."
 
 watch:
