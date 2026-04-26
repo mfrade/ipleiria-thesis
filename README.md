@@ -28,6 +28,10 @@
 <li><b>AI diligence page</b> (<code>Matter/04-AI.tex</code>) — updated title and example text for Portuguese and English, reflecting a more detailed and formal declaration of AI tool usage.</li>
 </ul>
 All credit for the template goes to the original author.
+
+<b>Fork notice:</b> This is a personal fork of the <a href="https://github.com/joseareia/ipleiria-thesis">original IPLeiria Thesis</a> template by <a href="https://github.com/joseareia">José Areia</a>. The changes relative to the original are:
+<ul>                                                                                                                                                        <li><b>Cover style</b> — uses <code>bw</code> (black and white) instead of the default <code>classic</code> (red background).</li>
+<li><b>AI diligence page</b> (<code>Matter/04-AI.tex</code>) — updated title and example text for Portuguese and English, reflecting a more detailed and formal declaration of AI tool usage.</li>                                                                                                                        </ul>
 </blockquote>
 
 <p float="left">
