@@ -34,8 +34,8 @@ $bibtex_use = 1.5;
 # Show used CPU time.
 $show_time = 1;
 
-# Write all auxiliary files in a separate directory
-$aux_dir = '.aux';
+# $aux_dir disabled: TeX Live's xelatex does not support -aux-directory (MiKTeX-only)
+# $aux_dir = '.aux';
 
 add_cus_dep('glo', 'gls', 0, 'run_makeglossaries');
 add_cus_dep('acn', 'acr', 0, 'run_makeglossaries');
@@ -57,4 +57,5 @@ sub run_makeglossaries {
 
 $success_cmd = "echo '[ OK ] Compilation of $root_filename successful!'";
 
-print `find . -maxdepth 2 -type f -name "*.tex" | sed -nE 's|\\./(.*)/.*|\\1|p' | sort -u | xargs -I {} mkdir -pv "$aux_dir"/{}`;
+# Disabled: only needed when $aux_dir is set
+# print `find . -maxdepth 2 -type f -name "*.tex" | sed -nE 's|\\./(.*)/.*|\\1|p' | sort -u | xargs -I {} mkdir -pv "$aux_dir"/{}`;

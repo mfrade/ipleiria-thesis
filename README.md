@@ -21,6 +21,10 @@
 </p>
 <br/>
 
+<blockquote>
+<b>Fork notice:</b> This is a personal fork of the <a href="https://github.com/joseareia/ipleiria-thesis">original IPLeiria Thesis</a> template by <a href="https://github.com/joseareia">José Areia</a>. The only change is the cover style: this fork uses the <code>bw</code> (black and white) style instead of the default <code>classic</code> style (red background). All credit for the template goes to the original author.
+</blockquote>
+
 <p float="left">
 <a href="https://github.com/joseareia/ipleiria-thesis">IPLeiria Thesis</a> is an open-source LaTeX template <b>designed for creating professional thesis, dissertations, and academic reports</b> specifically tailored for the <a href="https://www.ipleiria.pt/" target="_blank">Polytechnic University of Leiria</a> students. It was developed to ensure a <b>clean, aesthetically pleasing, and professional design</b> while remaining highly customizable to suit various needs. The template is also user-friendly, making it accessible even for newcomers.
 
@@ -28,7 +32,7 @@ Curious to see it in action? Check out the <a href="https://www.overleaf.com/lat
 </p>
 
 <p align="center">
-  <img src="https://github.com/joseareia/ipleiria-thesis/blob/master/Assets/01_B.png" width="273"/>
+  <img src="https://github.com/mfrade/ipleiria-thesis/blob/master/Assets/01_B.png" width="273"/>
   <img src="https://github.com/joseareia/ipleiria-thesis/blob/master/Assets/02_B.png" width="273"/>
   <img src="https://github.com/joseareia/ipleiria-thesis/blob/master/Assets/03_B.png" width="273"/>
 </p>
